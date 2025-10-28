@@ -1,0 +1,119 @@
+body{
+background-color:rgb(242, 251, 255);
+display:         flex;
+flex-direction:  column;
+align-items:     center;
+margin:          0;
+}                     
+
+main{                 
+/* background-color:black; */
+display:         flex;
+width:           80%;
+height:          100vh;
+padding:         21px;
+}
+
+.container{      
+/* background-color:aquamarine; */
+display:         flex;
+width:           100%;
+flex-direction:  column;
+row-gap:         5px;
+}                
+                 
+.row{            
+/* background-color:blueviolet; */
+height:          100%;
+width:           100%;
+
+}
+
+.row-1{
+/* background-color:chartreuse; */
+display:         flex;
+column-gap:      5px;
+}
+
+.row-1 .child{
+border-radius:   5px;
+}  
+
+.child-3{
+background-color:rgba(233, 232, 231, 0.377);
+width:           35%;
+text-align:      center;
+padding:         15px;
+border-left:     1px solid rgba(29, 124, 42, 0.452);
+border-bottom:   2px solid rgba(29, 124, 42, 0.452);
+}
+
+.child-4{
+background-color:rgba(233, 232, 231, 0.377);
+width:           75%;
+text-align:      center;
+padding:         15px;
+border-left:     1px solid rgba(29, 124, 42, 0.452);
+border-bottom:   2px solid rgba(29, 124, 42, 0.452);
+}
+
+.row-2{
+/* background-color:chartreuse; */
+display:         flex;
+column-gap:      5px;
+}
+
+.row-2 .child{
+background-color:rgba(233, 232, 231, 0.377);
+column-gap:      5px;
+}
+
+.child-left{
+width:           45%;
+border-radius:   5px;
+text-align:      center;
+padding:         15px;
+border-left:     1px solid rgb(255, 255, 255);
+border-bottom:   2px solid rgb(255, 255, 255);
+}
+
+.child-right{
+width:           65%;
+border-radius:   5px;
+text-align:      center;
+padding:         15px;
+border-left:     1px solid rgb(255, 255, 255);
+border-bottom:   2px solid rgb(255, 255, 255);
+}
+
+.row-3{
+/* background-color:rgb(125, 151, 99); */
+display:         flex;
+column-gap:      5px;
+}
+
+.row-3 .child{
+column-gap:      5px;
+border-radius:   5px;
+}
+.child-1{
+background-color:rgba(233, 232, 231, 0.377);
+width:           50%;
+text-align:      center;
+padding:         15px;
+border-left:     1px solid rgba(212, 31, 31, 0.397);
+border-bottom:   2px solid rgba(212, 31, 31, 0.397);
+}
+
+.child-2{
+background-color:rgba(233, 232, 231, 0.377);
+width:           50%;
+text-align:      center;
+padding:         15px;
+border-left:     1px solid rgba(212, 31, 31, 0.397);
+border-bottom:   2px solid rgba(212, 31, 31, 0.397);
+}
+
+h3{
+letter-spacing: 3px;
+}
